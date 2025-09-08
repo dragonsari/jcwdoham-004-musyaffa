@@ -1,0 +1,1 @@
+//A palindrome is a word, phrase, number, or other sequence of characters that reads the same forwards and backwards. The characters are mirrored around the center.
