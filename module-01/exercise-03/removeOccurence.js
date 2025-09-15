@@ -2,8 +2,6 @@
 let sentence="hello world";
 let delSentence="ell";
 
-let newSentence="";
+let newSentence=sentence.replace(delSentence, "");
+console.log(newSentence);
 
-for(let i=0; i<sentence.length;i++){
-    
-}
