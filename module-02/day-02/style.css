@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    padding: 2rem;
+    margin: 0;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 1110px;
+    grid-gap: 20px;
+}
+.card{
+    padding: 26px 32px 26px 32px;
+    border-radius: 8px;
+    box-shadow: 40px 60px 50px -47px rgba(72,85,106,0.2474);
+}
+.box1{
+    background-color: #733FC8;
+    color: #FFFFFF;
+    grid-column: 1/3;
+    max-width: 540px;
+    max-height: 282px;
+}
+.box2{
+    background-color: #48556A;
+    color: #FFFFFF;
+    grid-column: 3/3;
+    grid-row: 1/2;
+}
+.box4{
+    background-color: #FFFFFF;
+    color: #48556A;
+}
+.box5{
+    background-color: #19202D;
+    color: #FFFFFF;
+    grid-column: 2/4;
+    grid-row: 2/2;
+    max-width: 540px;
+    max-height: 282px;
+}
+.box3{
+    background-color: #FFFFFF;
+    color: #48556A;
+    grid-row: 1/3;
+    grid-column: 4/4;
+    max-width: 255px;
+    max-height: 572px;
+}
