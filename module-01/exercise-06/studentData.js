@@ -4,16 +4,20 @@ class Student{
     studentAge;
     studentScore;
     
-    constructor(name,mail,age,score){
-        this.studentName=name;
-        this.studentMail=mail;
-        this.studentAge=age;
-        this.studentScore=score;
+    constructor(_name,_mail,_age,_score){
+        this.studentName=_name;
+        this.studentMail=_mail;
+        this.studentAge=_age;
+        this.studentScore=_score;
     }
     
 
-    GetScore(){}
+    GetScore(){
+        return this.studentScore;
+    }
 
-    GetAge(){}
+    GetAge(){
+        return this.studentAge;
+    }
 
 }
