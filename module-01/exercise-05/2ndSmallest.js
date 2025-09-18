@@ -2,9 +2,10 @@
 let num=[1,2,3,4,5,6];
 
 function SecSmallest(nums){
-    for(let i = 0; i<nums.length;i++){
-        
+    if (nums.length < 2) {
+        console.log("None");
     }
-    return nums;
+    const x = [...nums].sort((a, b) => a - b);
+    return x[1];
 }
-SecSmallest(num);
+console.log(SecSmallest(num));
